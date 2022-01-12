@@ -1,0 +1,71 @@
+/* aside 왼쪽 메뉴 */
+
+aside{
+    width:200px;
+    float:left;
+}
+
+aside #login_box{
+    width:190px;
+    height:120px;
+    border:solid 1px #dddddd;
+    border-radius:10px;
+    background-color:#f3f3f3;
+}
+
+aside #input_button{
+    margin:10px 0 0 10px; /* top, left, 여백 10px 지정 */
+}
+
+aside #login_title{
+    margin: 10px 0 0 10px; /*로그인 타이틀 여백 10px 지정*/
+}
+
+aside #login_input{
+    float:left;
+}
+
+aside #login_input input{
+    width:100px;
+    height:20px;
+    border:solid 1px #dddddd;
+}
+
+aside #login_btn{
+    float:left;
+    margin:0 0 0 5px; /* 로그인 버튼의 left 여백 5px 지정 */
+}
+
+aside #login_input li{
+    margin-top:2px;
+}
+aside #join_search{
+    margin:10px 0 0 5px;
+}
+
+aside #guestbook{
+    width:189px;
+    height:135px;
+    margin-top:15px;
+    background-color:#eeeeee;
+    border:solid 1px #cccccc;
+    border-radius:10px;
+    box-shadow:2px 2px 5px #dddddd;
+}
+
+aside #guestbook_title{
+    width:165px;
+    padding:10px 0 0 5px;
+    margin:0 0 0 8px;
+    border-bottom:solid 1px #cccccc;
+}
+
+
+aside #guestbook li{
+    list-style-image:url("../img/icon_blue.gif");
+        margin-top:5px;
+}
+
+aside #guestbook ul{
+    margin:10px 0 0 40px;
+}
